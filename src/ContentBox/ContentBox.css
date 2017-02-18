@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Shin Su Medium';
+  src: url('./wt071.ttf');
+}
+
+@font-face {
+    font-family: 'AiharaHudemojiKaisho';
+    src: url('./AiharaHudemojiKaisho2.01.ttf');
+}
+
+.content-box {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: justify;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20%;
+}
+
+.content-box h1{
+    font-size: 72px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Kaushan Script';
+}
+
+.content-box h2{
+    font-size: 144px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Shin Su Medium', 'AiharaHudemojiKaisho', 'cursive';
+}

@@ -1,0 +1,19 @@
+path {
+  stroke-width: 1px;
+  stroke: white;
+  fill: steelblue;
+  cursor: pointer;
+}
+
+path:hover, path.highlighted {
+  fill: tomato;
+}
+
+path.active {
+  fill: orange;
+}
+
+rect.background {
+  fill: none;
+  pointer-events: all;
+}
